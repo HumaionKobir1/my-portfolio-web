@@ -15,7 +15,7 @@ const About = () => {
         <h2 className="text-3xl">About Me</h2>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row">
+      <div className="flex flex-col-reverse md:flex-row gap-5">
         <div className="w-full md:w-1/2 md:mr-16">
           <Lottie animationData={about} loop={true} className="mx-auto" />
         </div>
