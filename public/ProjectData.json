@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Project One",
+    "liveSite": "https://celadon-daifuku-7f1249.netlify.app/",
+    "codeLink": "https://github.com/developerMasum/JobHub",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "image": "../src/assets/WhatsApp Image 2023-04-26 at 10.00.15.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Project Two",
+    "liveSite": "https://next-page.netlify.app/",
+    "codeLink": "https://github.com/developerMasum/nextPage",
+    "details": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "../src/assets/p2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Project Three",
+    "liveSite": "https://prismatic-macaron-4e1e8e.netlify.app/",
+    "codeLink": "https://github.com/developerMasum/knowledgeCafe",
+    "details": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "image": "../src/assets/p3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Project Four",
+    "liveSite": "https://spontaneous-swan-27e971.netlify.app/",
+    "codeLink": "https://github.com/developerMasum/Quizz",
+    "details": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "image":"../src/assets/p4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Project Five",
+    "liveSite": "https://candid-unicorn-bf03fd.netlify.app/",
+    "codeLink": "https://github.com/developerMasum/ai-Universe",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "../src/assets/p5.jpg"
+  }
+]

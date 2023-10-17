@@ -1,0 +1,71 @@
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.my-container {
+  @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20;
+}
+
+@layer components {
+  .btno {
+    @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-blue-400 hover:bg-blue-700;
+  }
+}
+
+.badge {
+  @apply inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-yellow-400;
+}
+
+.active {
+  @apply  font-medium tracking-wide text-indigo-800 text-2xl transition-colors duration-200 hover:text-blue-400   ;
+}
+
+.default {
+  @apply font-medium tracking-wide text-blue-700  transition-colors  duration-200 hover:text-blue-400;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+} */
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #0000d2;
+  --color-primary: #0188e8;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-texture.png);
+} */
