@@ -15,8 +15,8 @@ const Header = () => {
       <div className="relative flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center text-xl">
-          <span className="ml-2 space-x-1 tracking-wider  font-bold  text-gray-800 flex ">
-          masum.dev
+          <span className="ml-2 space-x-1 tracking-wider md:text-3xl text-2xl  font-bold  text-gray-800 flex ">
+          HumaionKobir.dev
           </span>
         </Link>
 
